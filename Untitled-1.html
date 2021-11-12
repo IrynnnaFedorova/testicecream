@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IceCream</title>
+    <link rel="shortcut icon" type="image/png" href="./images/common/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titan+One&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+        integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+        crossorigin="anonymous" />
+</head>
+<body>
+    <header class="header">
+        <div class="header__container container">
+        <nav class="header__nav">
+        <a href="./index.html" class="logo">Web<span class="logo--accent-white">Studio</span></a>
+        <ul class="header__nav-list list">
+            <li class="header__nav-item"><a href="./index.html" class="link current header__nav-link">Студия</a></li>
+            <li class="header__nav-item"><a href="./portfolio.html" class="link header__nav-link">Портфолио</a></li>
+            <li class="header__nav-item"><a href="#contacts" class="link header__nav-link">Контакты</a></li>
+        </ul>
+        </nav>
+        <ul class="header__contact-list list">
+            <li class="header__contact-item"><a class="link" href="mailto:info@devstudio.com">
+                <svg class="address-link-icon" width="16" height="12">
+                <use href="./images/symbol-defs.svg#icon-envelope"></use>
+                </svg>info@devstudio.com</a></li>
+            <li class="header__contact-item"><a class="link" href="tel:+380961111111">
+                <svg class="address-link-icon" width="10" height="16">
+                <use href="./images/symbol-defs.svg#icon-tell"></use></svg>+38 096 111 11 11</a>
+            </li>
+        </ul>
+        </div>
+        <button type="button" class="menu-btn menu-btn--open js-open-menu" aria-expanded="false">
+            <svg class="menu-icon" width="24" height="16" aria-label="Открывает мобильное меню">
+                <use href="./images/mob-menu.svg#icon-menu-mobmenu"></use>
+            </svg></button>
+        <div class="mobile-menu js-menu-container" id="mobile-menu">
+            <ul class="mobile-menu-list list">
+                <li class="mobile-menu-item"><a href="./index.html" class="mobile-menu-link link mob-current">Студия</a></li>
+                <li class="mobile-menu-item"><a href="./portfolio.html" class="mobile-menu-link link">Портфолио</a></li>
+                <li class="mobile-menu-item"><a href="#contacts" class="mobile-menu-link link">Контакты</a></li>
+            </ul>
+            <div class="mobile-menu-content">
+                <ul class="mobile-menu-conect list">
+                    <li class="mobile-menu-item"><a href="" class="mobile-menu-tell link">+38 096 111 11 11</a></li>
+                    <li class="mobile-menu-item"><a href="" class="mobile-menu-mail link">info@devstudio.com</a></li>
+                </ul>
+                <ul class="mobile-menu-socialconect list">
+                    <li class="network-menu"><a href="https://www.instagram.com/?hl=ru" class="mobile-menu-social link">Instagram</a></li>
+                    <li class="network-menu"><a href="https://twitter.com/?lang=ru" class="mobile-menu-social link">Twitter</a></li>
+                    <li class="network-menu"><a href="https://uk-ua.facebook.com/" class="mobile-menu-social link">Facebook</a></li>
+                    <li class="network-menu"><a href="https://www.linkedin.com/" class="mobile-menu-social link">LinkedIn</a></li>
+                </ul>
+                <button type="button" class="menu-btn menu-btn--close js-close-menu" aria-expanded="true">
+                    <svg class="menu-icon" width="18.67" height="18.67" aria-label="Закрыввает мобильное меню">
+                        <use href="./images/mob-menu.svg#icon-close-mobmenu"></use>
+                    </svg></button>
+            </div>
+        </div>
+    </header>
