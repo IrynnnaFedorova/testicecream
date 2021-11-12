@@ -2,7 +2,7 @@
 
 // Кнопку создавать не надо, ее потом отдельно сбросит Юлия, ее надо будет вставить 2 раза (сначала без модального окна, а потом с ним)
 // Размещать кнопку на странице с помощью scss (margin и прочеее) будете сами, у нее будет только дизайн*/
-.header {
+/*.header {
   border-bottom: 1px solid var(--border-portfoli--);
 }
 
@@ -48,7 +48,7 @@
     text-align: center;
     font-size: 20px;*/
 
-.header is-open {
+/*.header is-open {
   display: block;
 }
 
@@ -124,4 +124,4 @@
   bottom: -1px;
   background-color: var(--accent-color);
   border-radius: 2px;
-}
+}*/
